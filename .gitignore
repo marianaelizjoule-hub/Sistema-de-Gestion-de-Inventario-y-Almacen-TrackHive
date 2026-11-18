@@ -1,0 +1,47 @@
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ===== Compilación =====
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# ===== NuGet =====
+packages/
+*.nupkg
+.nuget/
+
+# ===== Pruebas y herramientas =====
+TestResults/
+*.log
+*.tmp
+~$*
+_ReSharper*/
+*.DotSettings.user
+
+# ===== DAC y secretos (no subir nunca) =====
+*.mdf
+*.ldf
+*.bak
+*.local.config
+appsettings.Local.json
+secrets.*
+
+# ===== Documentos operativos de prueba =====
+Pdf_sustento/
+PDF_sustento/
+*.pdf
+!docs/**/*.pdf
+
+# ===== Sistema operativo =====
+Thumbs.db
+.DS_Store
+desktop.ini

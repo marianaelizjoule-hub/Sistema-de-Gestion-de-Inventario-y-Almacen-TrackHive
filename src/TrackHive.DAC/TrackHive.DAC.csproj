@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework>
+    <RootNamespace>TrackHive.DAC</RootNamespace>
+    <AssemblyName>TrackHive.DAC</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackHive.Entidades\TrackHive.Entidades.csproj" />
+  </ItemGroup>
+</Project>

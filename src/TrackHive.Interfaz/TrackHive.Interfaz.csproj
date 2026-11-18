@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net481</TargetFramework>
+    <RootNamespace>TrackHive.Interfaz</RootNamespace>
+    <AssemblyName>TrackHive</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackHive.BL\TrackHive.BL.csproj" />
+    <ProjectReference Include="..\TrackHive.Entidades\TrackHive.Entidades.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FrmConsultarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmConsultarProducto.Designer.cs">
+      <DependentUpon>FrmConsultarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FrmPrincipalAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPrincipalAdministrador.Designer.cs">
+      <DependentUpon>FrmPrincipalAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FrmPrincipalEncargado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPrincipalEncargado.Designer.cs">
+      <DependentUpon>FrmPrincipalEncargado.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FrmRegistrarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRegistrarProducto.Designer.cs">
+      <DependentUpon>FrmRegistrarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UcMonitorInventario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UcMonitorInventario.Designer.cs">
+      <DependentUpon>UcMonitorInventario.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

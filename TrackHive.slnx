@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TrackHive.BL/TrackHive.BL.csproj" />
+    <Project Path="src/TrackHive.DAC/TrackHive.DAC.csproj" />
+    <Project Path="src/TrackHive.Entidades/TrackHive.Entidades.csproj" />
+    <Project Path="src/TrackHive.Interfaz/TrackHive.Interfaz.csproj" />
+  </Folder>
+</Solution>
